@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-br" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Alexandre O Glande sorrindo maleficamente ao saber que nunca será punido por seus crimes"
+        />
+        <p>@alexandrecabeçadeovo</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <!-- (Unsorted List) Tag de Lista desordenada(nao é ordenada por numero, diferente da <ol>) -->
+        <li>
+          <!-- Tag do item da lista -->
+          <a href="#">Oto cansado</a>
+          <!-- Tag de Link, lembrando que atributo href="" seria o caminho do link, se tiver "#" o caminho é vazio (não abre nada) -->
+        </li>
+
+        <li>
+          <a href="#">Por favor pare</a>
+        </li>
+
+        <li>
+          <a href="https://impostometro.com.br/" target="_blank">Governo fdp</a>
+          <!-- O "target="_blank" faz com que o link abra em uma nova guia do navegador ao inves de substituir a guia da pagina -->
+        </li>
+
+        <li>
+          <a href="https://www.janjometro.com/" target="_blank"
+            >Custos da janta</a
+          >
+        </li>
+      </ul>
+      <div id="social-icons">
+        <a href="https://github.com/KayanMell0" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a
+          href="https://www.youtube.com/watch?v=slPGl4KH7jA&pp=ygUac29tIGRlIHNpcmlyaWNhIHByYSBkb3JtaXI%3D"
+          target="_blank"
+        >
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+        <a href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <footer>
+        Feito com ♥ pelo <a href="https://github.com/KayanMell0">Kayan</a>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
