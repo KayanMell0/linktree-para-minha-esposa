@@ -136,6 +136,10 @@ ul li a {
   transition: background 0.2; /* faz com que a transição de determinado elemento seja mais suave tanto indo quanto voltando!!! */
 }
 
+ul li a ion-icon {
+  font-size: 24px;
+}
+
 /* pseudo-selector */
 ul li a:hover {
   /* pseudo selector, basicamente oto dizendo qual será as propriedades do elemento quando ele estiver em modo "hover" */
