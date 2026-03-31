@@ -9,13 +9,16 @@ function toggleMode() {
   if (html.classList.contains("light")) {
     // se tiver light mode, adicionar a imagem light
     img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute("alt", "Alexandre O Glande com rosto sério")
+    img.setAttribute(
+      "alt",
+      "Avatar da Shay com olhos fechados e boca aberta (sorrindo)",
+    )
   } else {
     // se tiver sem light mode, manter a imagem normal
     img.setAttribute("src", "./assets/avatar.png")
     img.setAttribute(
       "alt",
-      "Alexandre O Glande sorrindo maleficamente ao saber que nunca será punido por seus crimes",
+      "Avatar da Shay com olhos abertos e boca aberta (sorrindo)",
     )
   }
 }
